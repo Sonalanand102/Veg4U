@@ -12,6 +12,6 @@ class ProductDetailController extends Controller
     //
     function show()
     {
-        return ProductCategory::all();
+        return Product::all();
     }
 }

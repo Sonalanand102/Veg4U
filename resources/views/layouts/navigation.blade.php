@@ -16,6 +16,15 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+
+                @foreach ($menus as $menu)
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="$menu['pageLocation']">
+                        {{$menu['pageName']}}
+                    </x-nav-link>
+                   {{-- {{ $menu['pageName']}} --}}
+                </div>
+                @endforeach    
             </div>
 
             <!-- Settings Dropdown -->

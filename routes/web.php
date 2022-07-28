@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductDetailController;
+use App\Http\Controllers\MenuController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,6 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('/products',[ProductDetailController::class,'show']);
+// Route::get('/dashboard',[MenuController::class,'show']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
