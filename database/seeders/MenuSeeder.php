@@ -18,37 +18,37 @@ class MenuSeeder extends Seeder
         DB::table('menus')->insert([
             [
                 'pageName' => 'Home',
-                'pageLocation' => 'resources\views\dashboard.blade.php'
+                'pageRoutes' => '/'
             ],
 
             [
                 'pageName' => 'Products',
-                'pageLocation' => 'resources\views\products.blade.php'
+                'pageRoutes' => 'products'
             ],
 
             [
                 'pageName' => 'Blogs',
-                'pageLocation' => 'resources\views\blogs.blade.php'
+                'pageRoutes' => 'blogs'
             ],
 
             [
                 'pageName' => 'Contact Us',
-                'pageLocation' => 'resources\views\contactus.blade.php'
+                'pageRoutes' => 'contactUs'
             ],
 
             [
                 'pageName' => 'Profile',
-                'pageLocation' => 'resources\views\profile.blade.php'
+                'pageRoutes' => 'profile'
             ],
 
             [
                 'pageName' => 'Wishlist',
-                'pageLocation' => 'resources\views\wishlist.blade.php'
+                'pageRoutes' => 'wishlists'
             ],
 
             [
                 'pageName' => 'Cart',
-                'pageLocation' => 'resources\views\cart.blade.php'
+                'pageRoutes' => 'cart'
             ]
         ]);
     }

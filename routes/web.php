@@ -16,7 +16,7 @@ use App\Http\Controllers\MenuController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/products',[ProductDetailController::class,'show']);

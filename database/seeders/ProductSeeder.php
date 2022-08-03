@@ -17,7 +17,7 @@ class ProductSeeder extends Seeder
         //
         DB::table('products')->insert([
             [
-                'image' => '../public/images/products/anar_fruit.jpg',
+                'image' => 'public/images/products/anar_fruit.jpg',
                 'name'  => 'Pomegranate',
                 'category_id' => 1,
                 'weight' => 1,
@@ -25,7 +25,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'image' => '../public/images/products/mangos_fruit.jpg',
+                'image' => 'public/images/products/mangos_fruit.jpg',
                 'name'  => 'Mangoes',
                 'category_id' => 1,
                 'weight' => 1,
@@ -33,7 +33,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'image' => '../public/images/products/oranges_fruit.jpg',
+                'image' => 'public/images/products/oranges_fruit.jpg',
                 'name'  => 'Oranges',
                 'category_id' => 1,
                 'weight' => 1,
@@ -41,7 +41,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'image' => '../public/images/products/pineapples_fruit.jpg',
+                'image' => 'public/images/products/pineapples_fruit.jpg',
                 'name'  => 'Pineapples',
                 'category_id' => 1,
                 'weight' => 1,
@@ -49,7 +49,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'image' => '../public/images/products/strawberry_fruit.jpg',
+                'image' => 'public/images/products/strawberry_fruit.jpg',
                 'name'  => 'Strawberry',
                 'category_id' => 1,
                 'weight' => 1,
@@ -57,7 +57,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'image' => '../public/images/products/beans_vege.jpg',
+                'image' => 'public/images/products/beans_vege.jpg',
                 'name'  => 'Beans',
                 'category_id' => 2,
                 'weight' => 1,
@@ -65,7 +65,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'image' => '../public/images/products/cabbage_vege.jpg',
+                'image' => 'public/images/products/cabbage_vege.jpg',
                 'name'  => 'Cabbage',
                 'category_id' => 2,
                 'weight' => 1,
@@ -73,7 +73,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'image' => '../public/images/products/potatos_vege.jpg',
+                'image' => 'public/images/products/potatos_vege.jpg',
                 'name'  => 'Potatoes',
                 'category_id' => 2,
                 'weight' => 1,
@@ -81,7 +81,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'image' => '../public/images/products/spnich_vege.jpg',
+                'image' => 'public/images/products/spnich_vege.jpg',
                 'name'  => 'Spnich',
                 'category_id' => 2,
                 'weight' => 1,
@@ -89,7 +89,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'image' => '../public/images/products/tomatos_vege.jpg',
+                'image' => 'public/images/products/tomatos_vege.jpg',
                 'name'  => 'Tomatoes',
                 'category_id' => 2,
                 'weight' => 1,

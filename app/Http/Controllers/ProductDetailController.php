@@ -12,6 +12,7 @@ class ProductDetailController extends Controller
     //
     function show()
     {
-        return Product::all();
+        $data = Product::all();
+        return view('products',['products' => $data]);
     }
 }
